@@ -1,5 +1,41 @@
 # KG-LLM
 
+## 📄 Paper List
+
+* KG for LLM
+
+ Knowledge Graph Enhanced Large Language Model Editing   [ Paper](https://arxiv.org/abs/2402.13593)
+
+InfuserKI: Enhancing Large Language Models with Knowledge Graphs via Infuser-Guided Knowledge Integration [paper](https://arxiv.org/abs/2402.11441)
+
+Knowledge Graph-Enhanced Large Language Models via Path Selection [paper](https://arxiv.org/abs/2406.13862)
+
+Learning to Plan for Retrieval-Augmented Large Language Models from Knowledge Graphs [paper](https://arxiv.org/abs/2406.14282)
+
+EMERGE: Integrating RAG for Improved Multimodal EHR Predictive Modeling [ paper](https://arxiv.org/abs/2406.00036)
+
+Mitigating Hallucinations in Large Language Models via Self-Refinement-Enhanced Knowledge Retrieval [paper](https://arxiv.org/abs/2405.06545)
+
+ODA: Observation-Driven Agent for integrating LLMs and Knowledge Graphs [paper](https://arxiv.org/abs/2404.07677)
+
+Logic Query of Thoughts: Guiding Large Language Models to Answer Complex Logic Queries with Knowledge Graphs [paper](https://arxiv.org/abs/2404.04264)
+
+KnowLA: Enhancing Parameter-efficient Finetuning with Knowledgeable Adaptation [ paper](https://arxiv.org/abs/2403.14950)
+
+Automatic Question-Answer Generation for Long-Tail Knowledge  [paper](https://arxiv.org/abs/2403.01382)
+
+Large Language Models Can Better Understand Knowledge Graphs Than We Thought [paper ](https://arxiv.org/abs/2402.11541)
+
+Contri(e)ve: Context + Retrieve for Scholarly Question Answering [paper](https://arxiv.org/abs/2409.09010)
+
+GLaM: Fine-Tuning Large Language Models for Domain Knowledge Graph Alignment via Neighborhood Partitioning and Generative Subgraph Encoding [paper](https://arxiv.org/abs/2402.06764)
+
+Chain-of-Knowledge: Integrating Knowledge Reasoning into Large Language Models by Learning from Knowledge Graphs [paper](https://arxiv.org/abs/2407.00653)
+
+Multimodal Reasoning with Multimodal Knowledge Graph [paper](https://aclanthology.org/2024.acl-long.579/)
+
+
+
 | 标题                                                         | 时间    | 方法名称（有就填） | 模型名称（包含大小）                                         | KG名称                                      | 数据集                                                       | 主要思路                                                     | 是否是KG增强LLM | 备注                               | 详情（之后补充） |
 | ------------------------------------------------------------ | ------- | ------------------ | ------------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- | ---------------------------------- | ---------------- |
 | [ Knowledge Graph Enhanced Large Language Model Editing](https://arxiv.org/abs/2402.13593) | 2024/02 | GLAME              | GPT-2 XL (1.5B) 、GPT-J (6B)                                 | Wikipedia                                   | COUNTERFACT、COUNTERFACTPLUS                                 | GLAME通过知识图谱增强模块抽取一个高阶子图，记录由于编辑过程导致的知识变化，使用LLM对子图中实体和关系进行编码，最后结合GNN将子图中的新知识关联融入到参数编辑过程中。 | 是              |                                    |                  |
